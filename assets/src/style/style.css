@@ -86,3 +86,99 @@ section#mainContent h3 {
     bottom: .3125rem;
     margin-bottom: 30px;
 }
+
+@media (min-width: 768px) {
+    body {
+        background-color: rgba(0, 0,0,0.84);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #f5f5f5;
+        padding: .625rem;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: transparent;
+        width: 90%;
+        height: 60px;
+    }
+    
+    header img#img {
+        width: 4.375rem;
+        height: 4.375rem;
+        margin-top: 1.28rem;
+    }
+    
+    h1#title {
+        font-size: 2rem;
+        margin-top: 2.5rem;
+    
+    }
+    
+    section#mainContent {
+        background-color: #f5f5f5;
+        border-radius: .625rem;
+        margin-top: .625rem;
+        width: 95%;
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    section#mainContent img#offIMG {
+        width: 25%;
+        height: 40vh;
+        cursor: pointer;
+    }
+    
+    
+    
+    section#mainContent div#boxButtons {
+        height: 2.5rem;
+        position: relative;
+        bottom: 1.5625rem;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    section#mainContent div#boxButtons button {
+        height: 2.5rem;
+        width: 35%;
+        background-color: rgb(12, 112, 242);
+        border: .125rem solid rgb(12, 112, 242);
+        border-radius: 10px;
+        color: #f5f5f5;
+        font-size: 1.1rem;
+        transition: 500ms;
+        cursor: pointer;
+        letter-spacing: 0.1rem;
+        font-weight: 600;
+    }
+
+    section#mainContent div#boxButtons button:hover {
+        transition: 500ms;
+        background-color: transparent;
+        color: rgb(12, 112, 242);
+        transform: scale(1.05);
+        font-weight: 600;
+    }
+    
+    section#mainContent h3 {
+        color: rgba(0, 0,0,0.84);
+        font-size: 1.3rem;
+        text-align: center;
+        text-transform: uppercase;
+        width: 90%;
+        position: relative;
+        bottom: .3125rem;
+        margin-bottom: 30px;
+    }
+}
