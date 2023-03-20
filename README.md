@@ -24,7 +24,7 @@
 
 ## Parte 2 - Funcionalidade ⚙
 
-### Funcionalidade criada via JavaScript. Utilizando conceitos como "Função Auto-invocável" para não poluir o escopo global, Use Strinct, DOM, Arrow Function, Function Expression e Condicionais.
+### Funcionalidade criada via JavaScript. Utilizando conceitos como "Função Auto-invocável" para não poluir o escopo global, Use Strict, DOM, Arrow Function, Function Expression e Condicionais.
 
 ![funcionalidadeLampadaDNC](https://user-images.githubusercontent.com/115199808/226367492-cdc84996-9d30-4132-bd6c-3636736d1308.gif)
 
